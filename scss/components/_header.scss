@@ -1,18 +1,22 @@
-@import "header-colors";
-
 .header {
-  padding: 20px;
-  background: var(--header-background);
-  //background: var(--primary);
-  margin: -8px -8px 10px -8px;
+  padding: 16px 20px 16px 20px;
+  background: var(--primary);
+  margin: -8px -8px 20px -8px;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
 .header__navigation {
   display: flex;
   justify-content: end;
-  gap: 5px;
+  gap: 10px;
+}
+
+.header__navigation--color {
+  color: var(--secondary);
 }
 
 .header__navigation--justify-start {
-  justify-self: left;
+  margin-right: auto;
 }

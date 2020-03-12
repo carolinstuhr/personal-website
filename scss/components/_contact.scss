@@ -1,3 +1,15 @@
 .contact {
   text-align: center;
+  border: double var(--primary);
+  margin: 16px;
+  padding: 16px;
+}
+
+.contact__paragraph {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.contact__link {
+  text-decoration: none;
 }

@@ -1,5 +1,14 @@
 .socials {
   text-align: center;
+  border: double var(--primary);
+  margin: 16px;
+  padding: 16px;
+}
+
+.socials__h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 4px;
 }
 
 .socials__link {
