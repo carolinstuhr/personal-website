@@ -1,0 +1,10 @@
+.socials {
+  text-align: center;
+}
+
+.socials__link {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+}

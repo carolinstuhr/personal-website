@@ -1,0 +1,15 @@
+.header {
+  padding: 20px;
+  background: var(--primary);
+  margin: -8px -8px 10px -8px;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+}
+
+.header__navigation--justify-start {
+  justify-self: left;
+}
