@@ -1,6 +1,9 @@
+@import "header-colors";
+
 .header {
   padding: 20px;
-  background: var(--primary);
+  background: var(--header-background);
+  //background: var(--primary);
   margin: -8px -8px 10px -8px;
 }
 
