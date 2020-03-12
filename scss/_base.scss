@@ -9,3 +9,11 @@ body {
   //margin: 0px;
   color: var(--primary);
 }
+
+main {
+  @media (min-width: 650px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}

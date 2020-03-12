@@ -1,0 +1,15 @@
+.skills {
+  text-align: center;
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.skills__list {
+  display: flex;
+  list-style: none;
+}
+
+.skills__list--item {
+  margin-right: 15px;
+  color: black;
+}

@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body>
+  <body id="home">
     <header class="header">
       <nav class="header__navigation">
         <a
           class="header__navigation--color header__navigation--justify-start"
-          href=""
+          href="#home"
           >Sina-Carolin Stuhr</a
         >
-        <a class="header__navigation--color" href="">Contact</a>
-        <a class="header__navigation--color" href="">About Me</a>
+        <a class="header__navigation--color" href="#contact">Contact</a>
+        <a class="header__navigation--color" href="#about">About Me</a>
       </nav>
     </header>
     <main>
@@ -24,10 +24,11 @@
         <img src="img/P7080062.JPG" alt="" />
         <h1>Sina-Carolin Stuhr</h1>
         <h2 class="intro__h2">
-          Web Developer in the making at <a href="">neue fische</a>
+          Web Developer in the making at
+          <a href="https://www.neuefische.de/" target="_blank">neue fische</a>
         </h2>
       </section>
-      <section class="contact">
+      <section id="contact" class="contact">
         <p class="contact__paragraph">Contact me at:</p>
         <a class="contact__link" href="tel:+49-151-65-141842"
           >&#9742; +49-151-65-141842<br
@@ -51,7 +52,7 @@
           /></a>
         </section>
       </section>
-      <section class="about">
+      <section id="about" class="about">
         <h3 class="about__headline">About Me</h3>
         <p class="about__paragraph">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit qui,
@@ -65,6 +66,17 @@
           vero harum esse, corporis itaque quo. Quam a assumenda, harum numquam
           optio corrupti ut ex similique.
         </p>
+      </section>
+      <section class="skills">
+        <h3>Coding Skills</h3>
+        <ul class="skills__list">
+          <li class="skills__list--item">html</li>
+          <li class="skills__list--item">css</li>
+          <li class="skills__list--item">bootstrap</li>
+          <li class="skills__list--item">shell</li>
+          <li class="skills__list--item">git</li>
+          <li class="skills__list--item">mobile first</li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
