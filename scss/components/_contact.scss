@@ -1,0 +1,17 @@
+.contact {
+  text-align: center;
+  border: double var(--primary);
+  margin: 16px;
+  padding: 16px;
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.contact__paragraph {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.contact__link {
+  text-decoration: none;
+}
